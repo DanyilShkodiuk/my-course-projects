@@ -1,0 +1,78 @@
+body,
+html {
+  height: 100vh;
+  margin: 0;
+  font-family: Raleway;
+  font-weight: 400;
+  text-align: center;
+  color: white;
+}
+
+.bg {
+  background-image: url(patCat.png);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.caption {
+  flex-direction: column;
+  max-width: 85%;
+  background-color: rgba(163, 137, 127, 0.34);
+  border-radius: 5px;
+  padding: 5%;
+  border: 1px solid black;
+}
+
+h1 {
+  margin: 0;
+}
+h2 {
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+button {
+  border: none;
+  padding: 1.5%;
+  color: #f7f2f2;
+  font-weight: bold;
+  width: 200px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+#increment-btn {
+  background-color: #ae998e;
+}
+
+#save-btn {
+  background-color: #845c3c;
+}
+
+#dicremnet-btn {
+  background-color: #ae998e;
+}
+
+.flex {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.flex > * {
+  flex: 1 40%;
+  margin: 1%;
+}
+
+p {
+  padding-left: 1%;
+  margin-top: 1px;
+  text-align: left;
+  font-size: 25px;
+}
